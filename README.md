@@ -12,6 +12,7 @@ python3 main.py
 ```sh
 git clone
 cd charts
+python3 -m venv chart_env
 source chart_env/bin/activate
 pip3 install -r requirements.txt
 python3 main.py
